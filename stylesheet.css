@@ -144,8 +144,9 @@ body {
 
     .project_content p {
         margin: 0;
-        padding: 40px;
+        padding: 50px;
         width: 580px;
+		height: 200px;
     }
     
     
@@ -373,7 +374,7 @@ body {
     .project_thumb {
         float: left;
         margin: 0 20px 20px 0;
-        position: relative;
+        position: block;
     }
     
     .project_thumb .hover {
