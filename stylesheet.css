@@ -121,7 +121,7 @@ body {
         width: 860px;
     }
     
-    .bodycopy a { color: #000000; text-decoration: underline; }
+    .bodycopy a { color: #666666; text-decoration: underline; }
     .bodycopy a:hover { background: #ffff00; color: #000000; text-decoration: none; }
     .bodycopy a:active { background: #000000; color: #ffffff; }
     
