@@ -1916,9 +1916,12 @@ body {
     ***************************************************************************************************/
     
     .nav_container a {                                             /* Applied to each navigation link */
-        text-decoration: none;
-    }
-
+        text-decoration: underline;}
+	.nav_container a { color: #000; }
+    .nav_container a:hover { text-decoration: underline; }
+    .nav_container a:active { color: #000000; }	
+	
+	
     .project_link a { color: #000; }
     .project_link a:hover { text-decoration: underline; }
     .project_link a:active { color: #000000; }
