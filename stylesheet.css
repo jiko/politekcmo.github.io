@@ -1872,11 +1872,19 @@ body {
     position: fixed;
     top:9px; left: 4px;
     z-index: 11;
+
+}
+.header_img2 {                                              /* To fix in place change to "position:fixed;" */
+    position: fixed;
+    top:300px; left: 4px;
+	width: 130px;
+    z-index: 12;
 }
 
 .nav_container {                                                 /* Vertical nav is not styled by default */
     font-size: 13px;
     line-height: 1.5;
+
 }
 
 .nav_container.horizontal {                                                 /* Enabled via display options */
@@ -1918,6 +1926,10 @@ body {
     .page_link a { color: #000; }
     .page_link a:hover { text-decoration: underline; }
     .page_link a:active { color: #000000; }
+
+    .header_img2 a { color: #000; }
+    .header_img2 a:hover { text-decoration: underline; }
+    .header_img2 a:active { color: #000000; }
 
     .link_link a { color: #999999; text-decoration: underline; }
     .link_link a:hover { color: #000000; }
