@@ -1869,13 +1869,13 @@ body {
 ***********************************************************************************************************/
 
 .header_img {                                              /* To fix in place change to "position:fixed;" */
-    position: fixed;
+    position: absolute;
     top:9px; left: 4px;
     z-index: 11;
 
 }
 .header_img2 {                                              /* To fix in place change to "position:fixed;" */
-    position: fixed;
+    position: absolute;
     top:300px; left: 4px;
 	width: 130px;
     z-index: 12;
@@ -1891,6 +1891,7 @@ body {
     margin: 48px 0 0 144px;
     z-index: 25;
 }
+
 
 .nav_container.horizontal div {
       float: left;
