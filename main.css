@@ -1,0 +1,327 @@
+/*------------------------------
+Siiiimple v1.3  
+
+Website: siiiimple.eu.pn
+
+Free to use under the GPL license. 
+--------------------------------*/
+
+
+/*---------------------------------------
+Changes in v1.3: 
+
+1. The example grids have been re-added
+to index.html
+
+2. The github files have been re-named
+to index.html, and simple.css
+
+3. There is some unnecessary code at 
+the bottom of simple.css for the example
+grids. You may remove that code if you 
+wish
+
+4. In the head of index.html there is a 
+link to google font's open sans. I like
+it, but you can remove it if you wish
+----------------------------------------*/
+
+
+/*---------------------------------------
+Usage Notes:
+
+You may want to change the Padding,
+Media Queries, Min-width, and Max-Width for 
+each Project.
+-----------------------------------------*/
+
+/*Need Don't Touch*/
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box
+}
+
+/*Helps With Images*/
+.spacer {
+    padding-bottom:50px;
+}
+
+
+img {
+    height:auto;
+}
+
+/*arrow crap*/
+
+#arrow {
+    color:#ffffff;
+    font-size:100px;
+    text-align:center;
+    padding-top:25px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*Container*/
+
+.span {
+  height: 100vh;
+    min-width:260px;
+    max-width:1080px;
+
+}
+
+.section-main {
+    background-color:#4FADE3;
+    height:auto;
+}
+
+.section-1 {
+    background-color:rgba(225, 197, 150, 1);
+    padding-top:100px;
+    padding-bottom:150px;
+    height:auto;
+}
+
+.section-2 {
+    background-color:rgb(225, 197, 150);
+    padding-top:10px;
+    padding-bottom:60px;
+    height:100%;
+}
+
+.section-3 {
+    background-color:#fff;
+    padding-top:100px;
+    padding-bottom:100px;
+    height:auto;
+    border-bottom:solid 1px #eee;
+}
+
+
+/*Clears Childern Elements*/
+
+.span:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+/*Floats and Pads*/
+
+[class*='loop'] {
+  float: left;
+  padding: 10px; 
+}
+
+/*The Grid*/
+
+.loop-1 {width: 9.1%;}
+
+.loop-2 {width: 16.6%;}
+
+.loop-3 {width: 25%;}
+
+.loop-4 {width: 33.3%;}
+
+.loop-4b {width: 33.3%;     background-color:rgba(54, 53, 53, 1);}
+
+.loop-5 {width: 41.6%;}
+
+.loop-6 {width: 50%;}
+
+.loop-7 {width: 58.3%;}
+
+.loop-8 {width: 66.6%;}
+
+.loop-8b {width: 66.6%;     background-color:rgba(54, 53, 53, 1);}
+
+.loop-9 {width: 75%;}
+
+.loop-10 {width: 83.3%;}
+
+.loop-11 {width: 90.9%;}
+
+.loop-12 {width: 100%;}
+
+.panel {
+    height:auto;
+    width:99%;
+    border-radius:2px;
+    padding:5px;
+}
+
+/*--------------------------------
+The Second Grid: 
+
+I really dont use this grid to much, 
+however you can if you want. To use 
+it simply take 100, and divide it 
+by the number following the syntax.
+--------------------------------*/
+
+.loop_1 {width: 100%;}
+
+.loop_2 {width: 50%;}
+
+.loop_3 {width: 33.3%;}
+
+.loop_4 {width: 25%;}
+
+.loop_5 {width: 20%;}
+
+.loop_6 {width: 16.6%;}
+
+.loop_7 {width: 14.285%;}
+
+.loop_8 {width: 12.5%;}
+
+.loop_9 {width: 11.1%;}
+
+.loop_10 {width: 10%;}
+
+.loop_11 {width: 9.09%;}
+
+.loop_12 {width: 8.333%;}
+
+
+/*Break Point - You may want to edit,
+and possibly add more break points*/
+
+@media (max-width: 530px) {
+    .loop-1,
+    .loop-2,
+    .loop-3,
+    .loop-4,
+    .loop-5,
+    .loop-6,
+    .loop-7,
+    .loop-8,
+    .loop-9,
+    .loop-10,
+    .loop-11,
+    .loop-12 {
+        width:100%;
+    }
+}
+
+@media (max-width: 530px) {
+    .loop_1,
+    .loop_2,
+    .loop_3,
+    .loop_4,
+    .loop_5,
+    .loop_6,
+    .loop_7,
+    .loop_8,
+    .loop_9,
+    .loop_10,
+    .loop_11,
+    .loop_12 {
+        width:100%;
+    }
+}
+
+/*This code is for the index.html, and 
+is not needed for Siiiimple to work*/
+
+body {
+  height: 100%;
+    color:#fff;
+    font-size:16px;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    color:#555;
+    font-size:50px;
+    margin:50px;
+}
+
+.section-main {
+    background-color:#4FADE3;
+    height:auto;
+}
+
+.block {
+    width:100%;
+    height:auto;
+    padding-top:15px;
+    padding-bottom:15px;
+    border-radius:2px;
+    background-color:rgb(225, 197, 150)
+}
+
+/*buttons and hover */
+#bg {
+    background-image:url('back.jpg');
+    background-repeat:repeat-x repeat-y;
+    background-attachment:fixed;
+}
+
+a {
+    color:#fff;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#555;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.line {
+    width:60%;
+    height:1px;
+    background-color:#eee;
+    margin:0 auto;
+}
+
+.button {
+width:35%;
+height:auto;
+border:solid 2px #4FADE3;
+border-radius:50px;
+margin:0 auto;
+padding: 40px 60px;
+color: #4FADE3;
+cursor: pointer;
+font-size: 5vmin;
+text-decoration: none;
+text-align:center;
+text-decoration: none;
+background-color:#fff;
+    font-weight:400;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.button:hover {
+width:35%;
+border:solid 2px #fff;
+background-color:#4FADE3;
+margin:0 auto;
+padding: 40px 60px;
+color: #fff;
+cursor: pointer;
+font-size: 5vmin;
+text-decoration: none;
+text-align:center;
+    font-weight:400;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
