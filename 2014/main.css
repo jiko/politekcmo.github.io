@@ -1,3 +1,4 @@
+
 /*------------------------------
 Siiiimple v1.3  
 
@@ -98,6 +99,20 @@ img {
     padding-bottom:60px;
     height:auto;
 }
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+
+.viewportheight {
+    background-color:rgb(225, 197, 150);
+    padding-top:10px;
+    padding-bottom:60px;
+    height:50vh;
+
+}
+}
+
 .viewportheight {
     background-color:rgb(225, 197, 150);
     padding-top:10px;
