@@ -1869,11 +1869,24 @@ body {
 ***********************************************************************************************************/
 
 .header_img {                                              /* To fix in place change to "position:fixed;" */
+    position: fixed;
+    top:9px; left: 4px;
+    z-index: 11;
+}
+@media only screen and (max-device-width: 480px)
+.header_img {
     position: absolute;
     top:9px; left: 4px;
     z-index: 11;
 
 }
+.header_img2 {                                              /* To fix in place change to "position:fixed;" */
+    position: fixed;
+    top:300px; left: 4px;
+	width: 130px;
+    z-index: 12;
+}
+@media only screen and (max-device-width: 480px)
 .header_img2 {                                              /* To fix in place change to "position:fixed;" */
     position: absolute;
     top:300px; left: 4px;
@@ -2010,10 +2023,7 @@ body {
     }
     
 	.project_description  {
-        margin: 0px 30px 0px 00px;
-        padding: 0px;
-        width: ;
-		height: 200px;
+
     }
 
     
