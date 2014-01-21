@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Archivo Black';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Archivo Black Regular'), local('ArchivoBlack-Regular'), url(http://themes.googleusercontent.com/static/fonts/archivoblack/v2/WoAoVT7K3k7hHfxKbvB6BzpmDuvrsAe6P6TsPq9xwrw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 700;
+  src: local('MontserratAlternates-Bold'), url(http://themes.googleusercontent.com/static/fonts/montserratalternates/v2/YENqOGAVzwIHjYNjmKuAZgHIHA8NZDzxmj0AXZzWWdh2IY20qb3OO3nusUf_NB58.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(http://themes.googleusercontent.com/static/fonts/opensans/v7/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Oswald Bold'), local('Oswald-Bold'), url(http://themes.googleusercontent.com/static/fonts/oswald/v8/bH7276GfdCjMjApa_dkG6bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
