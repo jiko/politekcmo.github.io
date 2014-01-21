@@ -213,22 +213,6 @@ and possibly add more break points*/
         width:100%;
     }
 }
-@media (                min-resolution: 192dpi) {
-    .loop-1,
-    .loop-2,
-    .loop-3,
-    .loop-4,
-    .loop-5,
-    .loop-6,
-    .loop-7,
-    .loop-8,
-    .loop-9,
-    .loop-10,
-    .loop-11,
-    .loop-12 {
-        width:100%;
-    }
-}
 
 @media (max-width: 530px) {
     .loop_1,
@@ -246,23 +230,6 @@ and possibly add more break points*/
         width:100%;
     }
 }
-@media (                min-resolution: 192dpi) {
-    .loop_1,
-    .loop_2,
-    .loop_3,
-    .loop_4,
-    .loop_5,
-    .loop_6,
-    .loop_7,
-    .loop_8,
-    .loop_9,
-    .loop_10,
-    .loop_11,
-    .loop_12 {
-        width:100%;
-    }
-}
-
 
 /*This code is for the index.html, and 
 is not needed for Siiiimple to work*/
