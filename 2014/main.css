@@ -74,10 +74,10 @@ img {
 /*Container*/
 
 .span {
-    width:100%;
-    min-width:260px;
-    max-width:1080px;
-    margin:0 auto; 
+   width:100%;
+      min-width:260px;
+      max-width:1080px;
+      margin:0 auto; 
 }
 
 .section-main {
@@ -98,10 +98,16 @@ img {
     padding-bottom:60px;
     height:auto;
 }
+.viewportheight {
+    background-color:rgb(225, 197, 150);
+    padding-top:10px;
+    padding-bottom:60px;
+    height:100vh;
+}
 
 .section-3 {
     background-color:#fff;
-    padding-top:100px;
+    padding-top:50px;
     padding-bottom:100px;
     height:auto;
     border-bottom:solid 1px #eee;
@@ -235,6 +241,7 @@ and possibly add more break points*/
 is not needed for Siiiimple to work*/
 
 body {
+  height: 100%;
     color:#fff;
     font-size:16px;
     text-align:center;
