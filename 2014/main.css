@@ -121,13 +121,13 @@ and (max-device-width : 568px) {
 }
 
 .center {
-border-style:dotted;
-   width: 70%;
+border-style:none;
+   width: 80%;
    height: 100%;
    position: absolute;
    left: 50%;
    top: 50%; 
-   margin-left: -33%;
+   margin-left: -40%;
    margin-top: -20%;
 }
 }
