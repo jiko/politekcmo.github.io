@@ -120,6 +120,19 @@ and (max-device-width : 568px) {
     height:100vh;
 }
 
+.center {
+border-style:dotted;
+   width: 70%;
+   height: 100%;
+   position: absolute;
+   left: 50%;
+   top: 50%; 
+   margin-left: -33%;
+   margin-top: -20%;
+}
+}
+
+
 .section-3 {
     background-color:#fff;
     padding-top:50px;
