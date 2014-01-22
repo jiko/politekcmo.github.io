@@ -1,0 +1,41 @@
+
+/* This removes the space between divs and the sides of VH.*/
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box
+}
+
+div#welcome {
+    height: 100vh;
+    background: black;
+
+
+}
+ 
+div#projects {
+    height: 100vh;
+    background: yellow;
+}
+
+div#iphonemaybe {
+    height: 100vh;
+    background: red;
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+
+div#iphonemaybe {
+    background-color:rgb(225, 197, 150);
+    padding-top:10px;
+    padding-bottom:60px;
+    height:50vh;
+
+}
+}
